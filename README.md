@@ -15,7 +15,7 @@ Automatizar o **envio de e-mails personalizados**, extraindo os dados requeridos
     smtp.login(email_origem, email_senha)
     smtp.sendmail(email_origem, email_destino, mensagem.as_string())
   ```
-  Substituia os parâmetros smtp.gmail.com e a porta 465 pelos relativos ao provedor que você deseja. Você pode consultar alguns [aqui](https://ajuda.bellesoftware.com.br/knowledge-base/parametros-gerais-smtp/).
+  Substitua os parâmetros smtp.gmail.com e a porta 465 pelos relativos ao provedor que você deseja. Você pode consultar alguns [aqui](https://ajuda.bellesoftware.com.br/knowledge-base/parametros-gerais-smtp/).
 * Este código se baseia na extração de dados de arquivos csv para envios personalizados em massa. O arquivo de e-mail, no entanto, não sofreu estilização, que seria possível utilizando arquivos de HTML/CSS como corpo do texto e abrindo esses arquivos para leitura, dentre outros procedimentos.
 
 
@@ -30,7 +30,7 @@ import ssl
 import os
 import mimetypes
 ```
-* Na linha 10 do código, temos uma variável chamada email_senha. Lá que deve ser colocada a senha presente nas observações.
+* Na linha 10 do código, temos uma variável chamada email_senha. Lá que deve ser colocada a senha que criamos nas orientações básicas.
 * Para fins de exemplo, vamos utiizar uma planilha chamada *pessoas.csv*, conforme abaixo:
 ![image](planilha.png)
 * Nesse exemplo, o código completo ficaria:
