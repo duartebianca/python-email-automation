@@ -9,7 +9,7 @@ import mimetypes
 #Coloque aqui a senha que você criou no gmail após a autenticação de dois fatores. Para mais informações, consulte o read.me
 email_senha = ''
 
-#email de quem esta enviando
+#email de quem está enviando
 email_origem = ''
 
 #Lê a planilha de onde os dados serão extraídos. Basta inserir o nome da planilha desejada dentro das aspas, com a extensão csv.
@@ -20,7 +20,7 @@ emails_de_envio = planilha[''].tolist()
 lista_de_nomes = planilha[''].tolist()
 feedback = planilha[''].tolist()
 
-#Lembre de trocar o range para acabar na quantidade final de linhas da coluna.
+#Lembre de trocar o range para acabar na quantidade de linhas que você quer.
 for i in range(0, 78):
   email_destino = emails_de_envio[i]
   nome = lista_de_nomes[i]
