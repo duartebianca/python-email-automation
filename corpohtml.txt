@@ -8,14 +8,14 @@ body {
 }
 #conteudo {
 			margin: 0 0 0 0; 
-			width: 90%; /* define a largura da div para ocupar metade da página */
+			width: 90%;
 		}
 #caixa_de_feedback {
-			width: 90%; /* define a largura da div para ocupar metade da página */
+			width: 90%;
 			margin: 0 0 0 0;
-			padding: 20px; /* define um espaço interno para o conteúdo */
-      border: 1px solid #ccc;
-      font-style: italic;
+			padding: 20px;
+      			border: 1px solid #ccc;
+      			font-style: italic;
 		}
  </style>
 </head>
