@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+#conteudo {
+			margin: 0 0 0 0; 
+			width: 90%; /* define a largura da div para ocupar metade da página */
+		}
+#caixa_de_feedback {
+			width: 90%; /* define a largura da div para ocupar metade da página */
+			margin: 0 0 0 0;
+			padding: 20px; /* define um espaço interno para o conteúdo */
+      border: 1px solid #ccc;
+      font-style: italic;
+		}
+ </style>
+</head>
+
+<body>
+  <div>
+    <img src="https://i.imgur.com/XhiKLNJ.png" style="height: 115px;">
+    <h4 style="color: #000000;">Olá, {{nome}}! 💚</h4>
+  </div>
+    <div id='conteudo'>
+    <p>Gostaríamos de agradecer por sua contribuição para a empresa e aproveitar esta oportunidade para fornecer um feedback sobre seu desempenho. </p>
+    <p>Primeiramente, queremos enfatizar que valorizamos muito seu trabalho e estamos muito satisfeitos com sua dedicação e comprometimento com as atividades realizadas. Notamos que você tem se empenhado em desenvolver suas habilidades e aprimorar seus conhecimentos, o que é muito importante para o crescimento profissional.</p>
+    <p>Abaixo, um feedback que com certeza irá ajudar no seu desenvolvimento:</p>
+    <p id='caixa_de_feedback'>{{feedback_atual}}</p>
+    <p>Qualquer dúvida, consultar com o RH.</p>
+  </div>
+  <div style="padding:5px 0px">
+    <div style="height: 100px;width:600px">
+      <p>Atenciosamente,</p>
+      <img src="https://i.imgur.com/QNTJr3K.gif" alt="Nome" align="left" style="margin-top: -16px; height: 100px;">
+      <div style="margin:8px">
+        <h5 style="; margin: 40px 0 0 0">Pessoa Responsável</h5>
+        <h5 style="; margin: 0">Nome da Empresa</h5>
+        <h5 style="; margin: 0">Fone: (XX) XXXX XXXX | Site: www.seusite.com.br</h5>
+      </div>
+    </div>
+  </div>
+  <div align="left" style="margin-top: 20px">
+    <img src="https://i.imgur.com/b0PPDsl.png" style="height: 115px;">
+  </div>
+</body>
+
+</html>
